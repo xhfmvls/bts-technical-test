@@ -4,7 +4,7 @@
 - Python
 - FastAPI
 
-## Endpoint Progress
+## Finished Endpoint Progress
 - POST login
 - POST register
 - POST checklist
@@ -19,7 +19,8 @@
 - Connect to Database using ORM
 
 ## Notes
-- API implemented without using database (because it's not in requirement and the time is limited)
+- API implemented without using database (because it's not in the requirement and the time is limited)
+- Data stored in Memory (variables)
 - JWT implemented without external (non-default) library
 - Hash used are SHA256
 - For the Delete Checklist endpoint, body are used instead of param to store the checklist id (because not supported in FastAPI)

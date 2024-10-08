@@ -35,7 +35,6 @@ class Todo(BaseModel):
     is_checked: bool = False 
 
 # Simulated databases (in-memory)
-# Simulated databases (in-memory)
 users_db: Dict[str, Dict] = {}        # Stores user data as user_id -> (email, password hash)
 checklists_db: Dict[str, Dict] = {}   # Stores checklist data as checklist_id -> (user_id, title)
 todos_db: Dict[str, Dict] = {}        # Stores todo data as todo_id -> (checklist_id, title, is_checked)
