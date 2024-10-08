@@ -13,7 +13,7 @@
 - DELETE checklist
 - GET checklist/{checklistId} 
 
-# Todo
+## Todo
 - Finished incompleted endpoints
 - Implement UI
 - Connect to Database using ORM
